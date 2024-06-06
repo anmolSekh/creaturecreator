@@ -3,7 +3,7 @@ import cors from "cors";
 import records from "./routes/records.js";
 
 //support db integration
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5050;
 const app = express();
 
 app.use(cors());
